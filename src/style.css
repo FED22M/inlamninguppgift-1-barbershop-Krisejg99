@@ -8,12 +8,12 @@ html {
     right: 0;
     bottom: 0;
     left: 0;
-    font-family: "Barlow Semi Condensed";
+    font-family: "Barlow Semi Condensed", Arial, sans-serif;
 }
 
-body p, a {
+body {
     margin: 0;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     line-height: 1.6rem;
 }
 
@@ -228,24 +228,52 @@ header {
     .footer-box {
         display: flex;
         flex-direction: column;
-        padding: 0px 15px 15px 15px;
-        gap: 1;
+        padding: 0px 15px;
     }
 
     .footer-box ul {
         padding: 0;
     }
 
-    .footer-icon {
-        width: 20px;
-        margin: 0px 15px -5px 0px;
+    .footer-box li {
+        display: flex;
+        align-items: center;
+        margin: 0.5rem;
     }
 
-    .footer-map::before {
-        content: url("map-logo.png");
-        display: inline-block;
-        width: 15px;
-        height: 15px;
+    .footer-box i {
+        font-size: 1.1rem;
+        margin-right: 10px;
+        position: inherit;
+    }
+
+    .footer-questions i {
+        color: rgb(191 146 91);
+        font-size: 1.2rem;
+        margin-right: 20px;
+    }
+
+
+
+    .footer-socials {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer-socials-singular {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(191 146 91);
+        border-radius: 50%;
+        padding: 2.5px 0px 0px 10px;
+        margin: 0px 10px 24px 0px;
+    }
+
+    .footer-socials-singular i {
+        font-size: 1rem;
     }
 
 }
