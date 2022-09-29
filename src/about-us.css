@@ -1,0 +1,136 @@
+/*ABOUT US SECTION*/
+.about-us {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-us-section {
+    padding: 3rem 1rem 3rem 1rem;
+}
+
+.about-us-text {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.about-us-text h3 {
+    color: rgb(191 146 91);
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.about-us-text h2 {
+    margin: 0.7rem 0 1.3rem 0;
+}
+
+.about-us-experience {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(191 146 91);
+    color: white;
+    padding: 1rem 1.5rem 1rem 1rem;
+    margin: 1.5rem 0 0rem 0rem;
+    width: fit-content;
+    /*desktop
+    max-width: 350px;
+    */
+}
+
+.about-us-icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 50%;
+    font-size: 2rem;
+}
+
+.years {
+    margin-left: 1rem;
+}
+
+.years h3 {
+    margin: 0 0 0.4rem 0;
+    font-size: 30px;
+}
+
+.years p {
+    margin: 0;
+    font-size: 12px ;
+    line-height: 1rem;
+}
+
+@media  screen and (max-width:950px) {
+    
+    .about-us {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-us-section {
+        padding: 3rem 1rem 3rem 1rem;
+    }
+
+    .about-us-text {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .about-us-text h3 {
+        color: rgb(191 146 91);
+        font-size: 1.2rem;
+        margin: 0;
+    }
+
+    .about-us-text h2 {
+        margin: 0.7rem 0 1.3rem 0;
+    }
+
+    .about-us-experience {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: rgb(191 146 91);
+        color: white;
+        padding: 1rem 1.5rem 1rem 1rem;
+        margin: 1.5rem 0 0rem 0rem;
+        width: fit-content;
+        /*desktop
+        max-width: 350px;
+        */
+    }
+
+    .about-us-icon {
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        border-radius: 50%;
+        font-size: 2rem;
+    }
+
+    .years {
+        margin-left: 1rem;
+    }
+
+    .years h3 {
+        margin: 0 0 0.4rem 0;
+        font-size: 30px;
+    }
+
+    .years p {
+        margin: 0;
+        font-size: 12px ;
+        line-height: 1rem;
+    }
+
+
+
+}

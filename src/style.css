@@ -1,3 +1,8 @@
+@import "about-us.css";
+@import "services.css";
+@import "footer.css";
+
+
 * {
     box-sizing: border-box;
 }
@@ -78,122 +83,9 @@ header {
     left: 50%;
 }
 
-.services-container {
-    display: flex;
-    flex-direction: row;
-}
-
-.services {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0px 25px 50px 25px;
-    color: white;
-}
-
-
-.services img {
-    width: 130px;
-    top: -65px;
-    margin-bottom: -65px;
-    border-radius: 100px;
-    position: relative;
-}
-
-.services h2 {
-    margin: 25px 0px 25px 0px;
-}
-
-.services p {
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
-
-.hair-styles {
-    background-color: rgb(199, 152, 94);
-}
-
-.beard-trim {
-    background-color: rgb(191 146 91);
-}
-
-.hot-shave {
-    background-color: rgb(199, 152, 94);
-}
-
-.hair-shampoo {
-    background-color: rgb(191 146 91);
-}
-
-/*FOOTER SECTION*/
-footer {
-    background-color: black;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 2rem 0;
-}
-
-.footer-box {
-    /*border: 1px red solid;*/
-
-    display: flex;
-    flex-direction: column;
-    padding: 0px 15px;
-    width: 17%;
-
-}
-
-.footer-box ul {
-    padding: 0;
-}
-
-.footer-box li {
-    display: flex;
-    align-items: center;
-    margin: 0.5rem;
-}
-
-.footer-box i {
-    font-size: 1.1rem;
-    margin-right: 10px;
-    position: inherit;
-}
-
-.footer-questions i {
-    color: rgb(191 146 91);
-    font-size: 1.2rem;
-    margin-right: 20px;
-}
-
-.footer-socials {
-    display: flex;
-    flex-direction: row;
-}
-
-.footer-socials-singular {
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(191 146 91);
-    border-radius: 50%;
-    padding: 2.5px 0px 0px 10px;
-    margin: 0px 10px 24px 0px;
-}
-
-.footer-socials-singular i {
-    font-size: 1rem;
-}
-
 @media screen and (max-width:950px) {
+
 /*NAVBAR SECTION 950px*/
-    
     .navbar-ul {
         display: flex;
         flex-direction: column;
@@ -264,32 +156,7 @@ footer {
         padding: 0;
         margin: 0;
     }
-
-/*SERVICES SECTION 950px*/
-
-    .services {
-        padding: 0px 25px 100px 25px;
-    }
-
-    .services-container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .hair-shampoo {
-        padding-bottom: 50px;
-    }
-
-/*FOOTER SECTION 950px*/
-    footer {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .footer-box {
-        width: 100%;
-    }
-
+    
 }
 
 /*NU ÄR VI UTANFÖR @media 950px*/
