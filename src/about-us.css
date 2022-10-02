@@ -106,7 +106,7 @@
     }
     
     .about-us-section {
-        min-width: 400px;
+        width: 400px;
         margin: 0 10rem 0 1.5rem;
     }
     
@@ -129,7 +129,8 @@
     }
 
     .about-us-section {
-        width: 100%;
+        min-width: 0px;
+        max-width: 100%;
         margin: 0;
     }
 

@@ -28,7 +28,7 @@
 
 .review {
     background-color: white;
-    padding: 1rem;
+    padding: 1rem 1.5rem;
     margin: 1rem;
     box-shadow: 0px 10px 5px -13.5px;
     width: 350px;
@@ -45,6 +45,8 @@
     border-radius: 50%;
     font-size: 1.2rem;
     color: white;
+    position: relative;
+    margin-top: -36px; /*half height 20px + padding of parent 16px*/
 }
 
 .reviewer {
