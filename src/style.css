@@ -98,6 +98,10 @@ li.nav-contact {
     padding: 5px 20px;
 }
 
+.navbar-ul-li a:hover {
+    color: var(--gold-color);
+}
+
 .dropdown button {
     display: none;
 }
