@@ -22,12 +22,11 @@ html {
     right: 0;
     bottom: 0;
     left: 0;
-    font-family: "Barlow Semi Condensed", Arial, sans-serif;
+    font-family: "Barlow Condensed", "Gill Sans", sans-serif;
 }
 
 body {
     margin: 0;
-    font-family: "Poppins", Arial, sans-serif;
     line-height: 1.6rem;
 }
 
@@ -41,7 +40,7 @@ body li {
 }
 
 body h1, h2, h3 {
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", "Gill Sans", sans-serif;
 }
 
 main {
