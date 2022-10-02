@@ -96,18 +96,16 @@
 @media  screen and (max-width:1050px) {
 
     .about-us {
-        height: 620px;
+        height: 670px;
     }
     
     .about-us img {
-        margin: 0 1.5rem 0 10rem;
-        width: 400px;
-        height: 620px;
+        width: 380px;
+        height: 670px;
     }
     
     .about-us-section {
-        width: 400px;
-        margin: 0 10rem 0 1.5rem;
+        width: 380px;
     }
     
 }
