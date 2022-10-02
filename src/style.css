@@ -54,16 +54,22 @@ main {
 nav {
     position: fixed;
     z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
-    padding: 6px 0px;
-    border-bottom: rgba(163, 163, 163, 0.5) dashed 1px;
-    border-bottom: rgba(163, 163, 163, 0.5) dashed 1px;
+    padding: 4px 0;
+}
+
+.pre-navbar {
+    width: 100%;
+    padding: 4px 0px;
+    border-top: rgba(163, 163, 163, 0.2) dashed 1px;
+    border-bottom: rgba(163, 163, 163, 0.2) dashed 1px;
     height: fit-content;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0);
 }
 
 .navbar {
-    background-color: rgba(163, 163, 163, 0.1);
+    background-color: rgba(201, 176, 146, 0.1);
     color: white;
     text-transform: uppercase;
     display: flex;
@@ -73,7 +79,7 @@ nav {
     width: 100%;
     z-index: 1;
     margin: 0;
-    height: 60px;
+    height: 50px;
 }
 
 .navbar h1 {
@@ -133,18 +139,18 @@ li.nav-contact {
     }
     
     .dropdown-content {
-        background-color: rgba(20, 27, 37, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
         width: 130px;
         overflow: auto;
         right: 0;
         position: absolute;
         z-index: 1;
         display: none;
-        margin-top: 15px;
+        margin-top: 22.2px;
     }
 
     .navbar-ul-li {
-        padding: 5px 15px;
+        padding: 10px 15px;
     }
 
     .show {
