@@ -5,7 +5,8 @@
 @import "footer.css";
 
 :root {
-    --primary-color: rgb(191 146 91);
+    --gold-color: rgb(191 146 91);
+    --black-color: rgb(20 27 37);
 }
 
 * {
@@ -50,10 +51,19 @@ main {
 }
 
 /*NAVBAR SECTION*/
-.navbar {
+nav {
     position: fixed;
-    background-color:
-    rgba(0,0,0,0.5);
+    z-index: 1;
+    width: 100%;
+    padding: 6px 0px;
+    border-bottom: rgba(163, 163, 163, 0.5) dashed 1px;
+    border-bottom: rgba(163, 163, 163, 0.5) dashed 1px;
+    height: fit-content;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.navbar {
+    background-color: rgba(163, 163, 163, 0.1);
     color: white;
     text-transform: uppercase;
     display: flex;
@@ -63,6 +73,11 @@ main {
     width: 100%;
     z-index: 1;
     margin: 0;
+    height: 60px;
+}
+
+.navbar h1 {
+    font-size: 1.7rem;
 }
 
 .navbar-ul {
@@ -96,70 +111,44 @@ li.nav-contact {
         margin: 0;
     }
 
-    /*dropdown menu nav*/
+/*DROPDOWN SECTION*/
     .dropdown-button {
         background: rgba(0, 0, 0, 0);
         color: white;
-
-        font-size: 20px;
+        font-size: 1rem;
         cursor: pointer;
         border: none;
+        padding: 5px 20px;
     }
     
-    .dropdown-button:hover, .dropdown-button:focus {
-        color: rgb(191 146 91);
+    .dropdown-button:hover,
+    .dropdown-button:focus,
+    .dropdown-content a:hover,
+    .dropdown-content a:focus {
+        color: var(--gold-color);
     }
 
     .dropdown button {
         display: block;
     }
-    /*
-    .dropdown {
-        display: block;
-        position: relative;
-        display: inline-block;
-    }
-    */
     
     .dropdown-content {
-        background-color: #f1f1f1;
-        width: 200px;
+        background-color: rgba(20, 27, 37, 0.5);
+        width: 130px;
         overflow: auto;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-
-        /*viktigt*/
-        display: none;
+        right: 0;
         position: absolute;
         z-index: 1;
-    }
-    
-    .dropdown-content a {
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        
-        /*lite viktigt*/
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .dropdown a:hover {
-        background-color: #ddd;
+        display: none;
+        margin-top: 15px;
     }
 
-    /*viktigt*/
+    .navbar-ul-li {
+        padding: 5px 15px;
+    }
+
     .show {
         display: block;
     }
 
-    .navbar-ul-li {
-        padding: 5px 20px;
-        list-style-type: none;
-        text-decoration: none;
-        padding: 0;
-        margin: 0;
-    }
-    
 }
-
-/*NU ÄR VI UTANFÖR @media 950px*/

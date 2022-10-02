@@ -36,15 +36,10 @@ footer {
     margin-right: 10px;
 }
 
-.footer-questions i {
-    color: rgb(191 146 91);
-    font-size: 1.2rem;
-    margin-right: 20px;
-}
-
 .footer-socials {
     display: flex;
     flex-direction: row;
+    margin-top: 1rem;
 }
 
 .footer-socials-singular {
@@ -53,7 +48,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(191 146 91);
+    background-color: var(--gold-color);
     border-radius: 50%;
     padding: 2.5px 0px 0px 10px;
     margin: 0px 10px 24px 0px;
@@ -61,6 +56,12 @@ footer {
 
 .footer-socials-singular i {
     font-size: 1rem;
+}
+
+.footer-questions i {
+    color: var(--gold-color);
+    font-size: 1.2rem;
+    margin-right: 20px;
 }
 
 @media  screen and (max-width:900px) {

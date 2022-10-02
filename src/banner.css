@@ -32,7 +32,7 @@
 }
 
 .welcome h2 {
-    color: var(--primary-color);
+    color: var(--gold-color);
     font-size: 1rem;
 }
 
@@ -47,7 +47,7 @@
 }
 
 .learn-more {
-    border-left: 3px solid var(--primary-color);
+    border-left: 3px solid var(--gold-color);
     padding-left: 4rem;
 }
 
@@ -57,8 +57,8 @@
 
 .learn-more-button {
     background-color: transparent;
-    color: var(--primary-color);
-    border: 3px solid var(--primary-color);
+    color: var(--gold-color);
+    border: 3px solid var(--gold-color);
     padding: 10px 20px;
 }
 

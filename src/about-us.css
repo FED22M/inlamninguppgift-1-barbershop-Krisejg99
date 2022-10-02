@@ -1,42 +1,52 @@
 /*ABOUT US SECTION*/
+
+
+
+
 .about-us {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     background-color: white;
+    width: 100%;
+    height: 590px;
+}
+
+.about-us img {
+    margin: 0 1.5rem 0 3rem;
+    width: 500px;
+    object-fit: cover;
+    height: 590px;
 }
 
 .about-us-section {
-    padding: 3rem 1rem 3rem 1rem;
-}
-
-.about-us-text {
-    display: flex;
-    flex-direction: column;
+    width: 500px;
+    height: 100%;
+    padding: 5rem 0 3rem 0;
+    margin: 0 3rem 0 1.5rem;
 
 }
 
-.about-us-text h3 {
-    color: rgb(191 146 91);
-    font-size: 1.2rem;
-    margin: 0;
+.about-us-section h3 {
+    color: var(--gold-color);
 }
 
-.about-us-text h2 {
-    margin: 0.7rem 0 1.3rem 0;
+.about-us-section h2 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin: 0.8rem 0 1.5rem 0;
+
 }
 
 .about-us-experience {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: rgb(191 146 91);
+    background-color: var(--gold-color);
     color: white;
     padding: 1rem 1.5rem 1rem 1rem;
-    margin: 1.5rem 0 0rem 0rem;
-    width: fit-content;
-    /*desktop
-    max-width: 350px;
-    */
+    margin: 2rem 0 0rem 0rem;
+    max-width: 300px;
 }
 
 .about-us-icon {
@@ -57,6 +67,7 @@
 .years h3 {
     margin: 0 0 0.4rem 0;
     font-size: 30px;
+    color: white;
 }
 
 .years p {
@@ -65,73 +76,83 @@
     line-height: 1rem;
 }
 
-@media  screen and (max-width:900px) {
+@media  screen and (max-width:1250px) {
     
     .about-us {
-        display: flex;
+        height: 620px;
+    }
+    
+    .about-us img {
+        width: 450px;
+        height: 620px;
+    }
+    
+    .about-us-section {
+        width: 450px;
+    }
+    
+}
+
+@media  screen and (max-width:1050px) {
+
+    .about-us {
+        height: 620px;
+    }
+    
+    .about-us img {
+        margin: 0 1.5rem 0 10rem;
+        width: 400px;
+        height: 620px;
+    }
+    
+    .about-us-section {
+        min-width: 400px;
+        margin: 0 10rem 0 1.5rem;
+    }
+    
+}
+
+@media  screen and (max-width:900px) {
+
+    .about-us {
         flex-direction: column;
+        align-items: center;
+        height: 100%;
+        padding: 0 5%;
+    }
+
+    .about-us img {
+        width: 100%;
+        height: 400px;
+        padding: 0;
+        margin: 0;
     }
 
     .about-us-section {
-        padding: 3rem 1rem 3rem 1rem;
-    }
-
-    .about-us-text {
-        display: flex;
-        flex-direction: column;
-
-    }
-
-    .about-us-text h3 {
-        color: rgb(191 146 91);
-        font-size: 1.2rem;
+        width: 100%;
         margin: 0;
     }
 
-    .about-us-text h2 {
-        margin: 0.7rem 0 1.3rem 0;
+    .about-us-section h3 {
+        font-size: 1.1rem;
     }
+    
+    .about-us-section h2 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin: 0.8rem 0 2rem 0;
+    }
+
 
     .about-us-experience {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        background-color: rgb(191 146 91);
-        color: white;
-        padding: 1rem 1.5rem 1rem 1rem;
-        margin: 1.5rem 0 0rem 0rem;
-        width: fit-content;
-        /*desktop
-        max-width: 350px;
-        */
+        margin: 3rem 0 0.8rem 0rem;
+        width: 200px;
     }
-
-    .about-us-icon {
-        width: 60px;
-        height: 60px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: black;
-        border-radius: 50%;
-        font-size: 2rem;
-    }
-
-    .years {
-        margin-left: 1rem;
-    }
+    
+  
 
     .years h3 {
-        margin: 0 0 0.4rem 0;
         font-size: 30px;
     }
-
-    .years p {
-        margin: 0;
-        font-size: 12px ;
-        line-height: 1rem;
-    }
-
-
 
 }

@@ -38,7 +38,7 @@
 }
 
 .beard-trim {
-    background-color: rgb(191 146 91);
+    background-color: var(--gold-color);
 }
 
 .hot-shave {
@@ -46,7 +46,7 @@
 }
 
 .hair-shampoo {
-    background-color: rgb(191 146 91);
+    background-color: var(--gold-color);
 }
 
 @media  screen and (max-width:900px) {
